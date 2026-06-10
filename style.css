@@ -272,7 +272,7 @@ section {
     content: '';
     position: absolute;
     bottom: 0;
-    left: 40%;
+    left: 50%;
     transform: translateX(-50%);
     width: 900px; /* Match timeline width */
     height: 1px;
@@ -312,6 +312,7 @@ section {
     margin-bottom: 0.5rem;
     font-weight: 400;
     /* font-style: italic; */
+    white-space: nowrap;
 }
 
 .profile-description {
