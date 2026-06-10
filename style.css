@@ -415,6 +415,8 @@ section {
     line-height: 1.6;
     color: var(--text-color);
     font-weight: 400;
+    text-align: justify;
+    hyphens: auto;
 }
 
 .timeline-card a {
