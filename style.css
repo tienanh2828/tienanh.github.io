@@ -474,6 +474,7 @@ section { padding: 80px 0; }
     border-bottom: 1px solid var(--border-color);
     padding-bottom: 0.8rem;
     margin-bottom: 1.5rem;
+    text-align: justify;
     /* Inherit body font — no override needed */
 }
 
@@ -483,6 +484,7 @@ section { padding: 80px 0; }
     line-height: 1.6;
     margin-bottom: 1.5rem;
     color: var(--text-color);      /* respects dark/light theme */
+    text-align: justify;
 }
 
 /* Footer */
