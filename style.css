@@ -584,26 +584,3 @@ html { scroll-behavior: smooth; }
 .theme-toggle i { font-size: 1.2rem; }
 
 ::selection { background: var(--primary-color); color: white; }
-
-#about.profile-timeline {
-    background-image: url('assets/images/IMG_2205.jpeg');
-    background-size: cover;
-    background-position: center top;
-    background-attachment: fixed; /* parallax effect */
-    position: relative;
-}
-
-/* Dark overlay so text stays readable */
-#about.profile-timeline::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.55);
-    z-index: 0;
-}
-
-/* Ensure content sits above the overlay */
-#about.profile-timeline .container {
-    position: relative;
-    z-index: 1;
-}
