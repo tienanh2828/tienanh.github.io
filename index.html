@@ -261,11 +261,6 @@ commercially available materials to advance PTFE-based dry processing for lithiu
                         <p class="publication-description">
                             Joint Beamforming and Antenna selection is a mix of non-convex continuous and combinatorial optimization problem. We address this issue by first proposing an optimal Branch and Bound (B&B) algorithm for the problem. To address the potential scalability issue of the B&B, we propose a GNN based policy learnt via imitation learning.
                         </p>
-                        <div class="publication-links">
-                            <a href="https://arxiv.org/abs/2206.05576" class="pub-link" target="_blank">Paper</a>
-                            <a href="assets/bibtex/shrestha2023optimal.txt" class="pub-link" target="_blank">Bibtex</a>
-                            <a href="https://github.com/XiaoFuLab/Antenna-Selection-and-Beamforming-with-BandB-and-ML" class="pub-link" target="_blank">Code</a>
-              </div>
             </div>
           </div>
 
@@ -281,11 +276,6 @@ commercially available materials to advance PTFE-based dry processing for lithiu
                         <p class="publication-description">
                             Classic and deep learning-based GCCA algorithms seek low-dimensional common representations of data entities from multiple "views" (e.g., audio and image) using linear transformations and neural networks, respectively. This work puts forth a convergence-guaranteed communication-efficient federated learning framework for both linear and deep GCCA under the Maximum Variance (MAX-VAR) formulation.
                         </p>
-                        <div class="publication-links">
-                            <a href="https://ieeexplore.ieee.org/document/9746607" class="pub-link" target="_blank">Paper</a>
-                            <a href="assets/bibtex/shrestha2023communication.txt" class="pub-link" target="_blank">Bibtex</a>
-                            <a href="https://github.com/XiaoFuLab/federated_max_var_gcca" class="pub-link" target="_blank">Code</a>
-            </div>
           </div>
                 </div>
                 <!-- Publication 8 -->
@@ -300,71 +290,65 @@ commercially available materials to advance PTFE-based dry processing for lithiu
                         <p class="publication-description">
                             Spectrum cartography (SC), also known as radio map estimation (RME), aims at crafting multi-domain (e.g., frequency and space) radio power propagation maps from limited sensor measurements. This work puts forth a quantized SC framework that generalizes the BTD and DGM-based SC to scenarios where heavily quantized sensor measurements are used.
                         </p>
-                        <div class="publication-links">
-                            <a href="https://ieeexplore.ieee.org/document/10335642" class="pub-link" target="_blank">Paper</a>
-                            <a href="assets/bibtex/timilsina2023deep.txt" class="pub-link" target="_blank">Bibtex</a>
-                            <a href="https://github.com/shresthasagar/Deep-SC" class="pub-link" target="_blank">Code</a>
-              </div>
             </div>
           </div>
 
-
-            
           </div>
         </div>
     </section>
-    
-<section id="activities" class="activities">
+
+    <!-- Activities Section — id matches the nav href="#activities" -->
+    <section id="activities" class="activities">
         <div class="container">
-            <h2 class="section-title">Conferences & Activities</h2>
+            <h2 class="section-title">Activities</h2>
             <div class="publications">
-    
-    <div class="talks-item">
-        <strong>MRS Fall Meeting & Exhibit 2025</strong> (oral) &mdash; <em>Determining the Relationship Between Composition, Structure and Device Properties of GexSe1-x-Based Selector-Only Memory</em>. Fall 2025
-    </div>
-
-    <div class="talks-item">
-        <strong>Korea Flexible & Printed Electronics Society Meeting 2024</strong> (poster) &mdash; <em>Improving the performance of R2R printed single-walled carbon nanotube-based thin film transistors through interface engineering</em>. Busan, South Korea &middot; Mar 2024
-    </div>
-
-    <div class="talks-item">
-        <strong>ASCENT Summer School 2026</strong> (participant) &mdash; <em>Semiconductor Science and Technology</em>. Ann Arbor, MI &middot; Aug 2026
-    </div>
-
-    <div class="talks-item">
-        <strong>ICME Summer School 2025</strong> (participant) &mdash; <em>Integrated Computational Materials Education</em>. University of Michigan &middot; Jun 2025
-    </div>
-</div>
+                <div class="talks-section">
+                    <div class="talks-title">Selected Talks, Posters &amp; Activities</div>
+ 
+                    <div class="talks-item">
+                        <strong>MRS Fall Meeting &amp; Exhibit 2025</strong> (oral) &mdash;
+                        <em>Determining the Relationship Between Composition, Structure and Device Properties of Ge<sub>x</sub>Se<sub>1-x</sub>-Based Selector-Only Memory</em>. Fall 2025
+                    </div>
+ 
+                    <div class="talks-item">
+                        <strong>Korea Flexible &amp; Printed Electronics Society Meeting 2024</strong> (poster) &mdash;
+                        <em>Improving the performance of R2R printed single-walled carbon nanotube-based thin film transistors through interface engineering</em>. Busan, South Korea &middot; Mar 2024
+                    </div>
+ 
+                    <div class="talks-item">
+                        <strong>ASCENT Summer School 2026</strong> (participant) &mdash;
+                        <em>Semiconductor Science and Technology</em>. Ann Arbor, MI &middot; Aug 2026
+                    </div>
+ 
+                    <div class="talks-item">
+                        <strong>ICME Summer School 2025</strong> (participant) &mdash;
+                        <em>Integrated Computational Materials Education</em>. University of Michigan &middot; Jun 2025
+                    </div>
                 </div>
-             </div>
-
-    <!-- Footer -->
+            </div>
+        </div>
+    </section>
+ 
+    <!-- Footer — outside all sections -->
     <footer class="footer">
-  <div class="container">
-    <p>&copy; 2026 Tien Anh Nguyen. All rights reserved.</p>
-  </div>
-</footer>
-
-    <!-- JavaScript -->
+        <div class="container">
+            <p>&copy; 2026 Tien Anh Nguyen. All rights reserved.</p>
+        </div>
+    </footer>
+ 
     <script>
-        // Dark mode toggle functionality
         const themeToggle = document.getElementById('theme-toggle');
         const themeIcon = document.getElementById('theme-icon');
         const body = document.body;
-
-        // Check for saved theme preference or default to light mode
+ 
         const currentTheme = localStorage.getItem('theme') || 'light';
-        
-        // Apply the current theme
         if (currentTheme === 'dark') {
             body.setAttribute('data-theme', 'dark');
             themeIcon.classList.replace('fa-moon', 'fa-sun');
         }
-
-        // Theme toggle event listener
+ 
         themeToggle.addEventListener('click', () => {
             const currentTheme = body.getAttribute('data-theme');
-            
             if (currentTheme === 'dark') {
                 body.removeAttribute('data-theme');
                 themeIcon.classList.replace('fa-sun', 'fa-moon');
@@ -375,37 +359,30 @@ commercially available materials to advance PTFE-based dry processing for lithiu
                 localStorage.setItem('theme', 'dark');
             }
         });
-
-        // Mobile menu toggle
+ 
         const hamburger = document.querySelector('.hamburger');
         const navMenu = document.querySelector('.nav-menu');
-
+ 
         hamburger.addEventListener('click', () => {
             hamburger.classList.toggle('active');
             navMenu.classList.toggle('active');
         });
-
-        // Close mobile menu when clicking on a link
+ 
         document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
             hamburger.classList.remove('active');
             navMenu.classList.remove('active');
         }));
-
-        // Smooth scrolling for navigation links
+ 
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }
             });
         });
-
-        // Navbar background on scroll
+ 
         window.addEventListener('scroll', () => {
             const navbar = document.querySelector('.navbar');
             if (window.scrollY > 50) {
@@ -417,3 +394,4 @@ commercially available materials to advance PTFE-based dry processing for lithiu
     </script>
 </body>
 </html>
+ 
