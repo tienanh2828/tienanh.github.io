@@ -847,3 +847,24 @@ html {
     background: var(--primary-color);
     color: white;
 }
+/* Selected Talks, Posters & Activities Layout */
+.talks-section {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.talks-title {
+    color: #8c7346; /* The golden-brown color from the image */
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+.talks-item {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    color: #111;
+}
